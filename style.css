@@ -1,0 +1,194 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans";
+    background-color: #663845;
+
+}
+
+/*INI HEADER YAA*/
+nav{
+  background: #552e39;
+  height: 70px;
+  width: 100%;
+}
+.logo{
+  line-height: 68px;
+  padding: 0 120px;
+  color: #ffffff;
+  float: left;
+  font-family: 'Yellowtail', cursive;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+nav ul{
+  float: right;
+  margin-top: 25px;
+  margin-right: 80px;
+}
+nav ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: #ffdce4;
+  font-size: 12px;
+  padding: 7px 13px;
+  border-radius: 10px;
+}
+a.active,a:hover{
+  background: #C06378;
+  transition: .5s;
+}
+
+
+.button {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    left: 120px;
+    top: 480px;
+    background-color: #C06378;
+    overflow: hidden;
+    padding: 0px 0px;
+    border-radius: 16px 16px 16px 16px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .button a {
+    float: left;
+    color: #ffdce4;
+    text-align: center;
+    padding: 11px 23px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .button a:hover {
+    background-color: #7c404e;
+    color: #f07d98;
+  }
+  
+  /* Add a color to the active/current link */
+  .button a.active {
+    background-color: #ffffff;
+    color: white;
+}
+
+/* INI ABOUT ME*/
+
+.bawah{
+  background-color: #7c404e;
+  height: 400px;
+  width: 650px;
+  position: absolute;
+  top: 915px;
+  left: 0px;
+  border-radius: 0px 350px 350px 0px;
+  box-shadow: 0 0 100px #46262f;
+}
+
+.project1{
+  height: 560px;
+  width: 780px;
+  background-color: #884b5c;
+  position: absolute;
+  top: 2880px;
+  left: 300px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 0 0 50px #46262f;
+}
+
+.project1 img{
+  height: 500px;
+  width: 750px;
+  padding-top: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.project1:hover{
+  background-color: #a1566b;
+  transition: 0.5s;
+}
+
+.project2{
+  height: 560px;
+  width: 780px;
+  background-color: #884b5c;
+  position: absolute;
+  top: 3550px;
+  left: 300px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  box-shadow: 0 0 50px #46262f;
+}
+
+.project2 img{
+  height: 500px;
+  width: 750px;
+  padding-top: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.project2:hover{
+  background-color: #a1566b;
+  transition: 0.5s;
+}
+
+/*INI KONTAK SAYA */
+
+.kontak{
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 4400px;
+  left: 0px;
+  background-color: #7a4353;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: none; /* Gray border */
+  border-radius: 6px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #a1566b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #bd667f;
+  transition: 0.5s;
+}
+
+/* Add a background color and some padding around the form */
+.containerr {
+  width: 85%;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+  margin-top: 100px;
+  color: #ffdce4;
+  letter-spacing: 1px;
+}
